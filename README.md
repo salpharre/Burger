@@ -32,7 +32,7 @@ To install Locally:
         
         user: "root",
         
-        password: "area",
+        password: "",
         database: "burgerDB",
     ```
 
