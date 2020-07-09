@@ -4,7 +4,7 @@ $(function () {
     $(".create-form").on("submit", function(e) {
         e.preventDefault();
 
-        const newBurger = {
+        let newBurger = {
             burger_name: $("#text").val().trim(),
             devoured: $("[name=devoured]:checked").val().trim()
         };
@@ -25,7 +25,7 @@ $(function () {
         let id = $(this).data("id");
         //let updateDevoured = $(this).data("newdevoured");
 
-        const updateDevouredState = {
+        let updateDevouredState = {
             devoured: true
         };
 

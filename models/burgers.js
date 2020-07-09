@@ -1,8 +1,8 @@
 //Import orm module to create functions that will interact with database
-const orm = require("../config/orm.js");
+let orm = require("../config/orm.js");
 
 /*Are a methods to be used in routes in burgerController.js*/
-const burger = {
+let burger = {
     /*is a method with a function that calls the "all" function from orm.js and passes table "burgers" 
     into function as an argument while cb argument will call back this method in burgerController.js
     function(res){cb(res)} calls the function in orm.js*/

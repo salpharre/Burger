@@ -1,5 +1,5 @@
 //Require express package for routes
-const express = require("express");
+let express = require("express");
 
 //connects this express with the express instance in server.js
 let router = express.Router();
@@ -10,7 +10,7 @@ let burger = require("../models/burgers.js");
 //Route for root, index.html, grabs data from burgers table and renders index.handlebars
 router.get("/", function(req, res) {
     burger.all(function(data) {
-        const brgObject = {
+        let brgObject = {
             burgers: data
         };
         console.log(brgObject);
