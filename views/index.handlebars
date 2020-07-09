@@ -1,6 +1,23 @@
 <div class="col">
-
+    <ul>
+    {{#each burgers}}
+        {{#unless devoured}}
+            {{> eaten/burger-block devoured=false}}
+        {{/unless}}
+    {{/each}}
+    </ul>
 </div>
 <div class="col">
-    
+    <ul>
+    {{#each burgers}}
+        {{#if devoured}}
+            {{> eaten/burger-block devoured=true}}
+        {{/if}}
+    {{/each}}
+    </ul>
 </div>
+
+<!--insert button for both or do some sort of
+if devoured=false here (with a button underneath
+within the div) or can i hide the button with
+handlbars syntax?-->
