@@ -10,10 +10,16 @@ body {
 }
 
 /*make the button invisible when the burger is devoured*/
-.change-devoured[data-devoured="true"] {
+.change-devoured[data-newdevoured="true"] {
     background-color: orange;
 }
 /*if burger is not devoured then button will be bootstrap primary color blue*/
-.change-devoured[data-devoured="false"] {
+.change-devoured[data-newdevoured="false"] {
     background-color: #0275d8;
 }
+
+/* #hide {
+    background-color: orange;
+    color: orange;
+} */
+

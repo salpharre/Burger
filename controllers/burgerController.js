@@ -2,10 +2,10 @@
 const express = require("express");
 
 //connects this express with the express instance in server.js
-const router = express.Router();
+let router = express.Router();
 
 //Import model to use the database functions
-const burger = require("../models/burger.js");
+let burger = require("../models/burger.js");
 
 //Route for root, index.html, grabs data from burgers table and renders index.handlebars
 router.get("/", function(req, res) {
@@ -29,7 +29,7 @@ router.post("/api/burgers", function(req, res) {
 
 //Route that updates a burger from devoured (false) to eaten (devoured=true) using the id
 router.put("/api/burgers/:id", function(req, res) {
-    const condition = "id = " + req.params.id;
+    let condition = "id = " + req.params.id;
 
     console.log("condition", condition);
 
