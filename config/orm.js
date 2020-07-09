@@ -49,7 +49,7 @@ let orm = {
         queryString += cols.toString();
         queryString += ") ";
         queryString += "VALUES (";
-        queryString += printQuestionMarks(vals.length);
+        queryString += questionMarks(vals.length);
         queryString += ") ";
 
         console.log(queryString);
