@@ -34,7 +34,7 @@ $(function () {
             type: "PUT",
             data: updateDevouredState
         }).then(function() {
-            console.log("Changed devoured state to", updateDevoured);
+            console.log("Changed devoured state to true");
             //Reload page to get updated list of devourned and non-devoured
             location.reload();
         });
