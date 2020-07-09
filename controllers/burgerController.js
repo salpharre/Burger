@@ -5,7 +5,7 @@ const express = require("express");
 let router = express.Router();
 
 //Import model to use the database functions
-let burger = require("../models/burger.js");
+let burger = require("../models/burgers.js");
 
 //Route for root, index.html, grabs data from burgers table and renders index.handlebars
 router.get("/", function(req, res) {
