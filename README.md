@@ -59,6 +59,7 @@ DEMO:
 * Node v12.16.1
 * MySQL v8.0.20
 * Handlebars v
+* freeicons.io
 
 ### Tests
 
@@ -77,3 +78,4 @@ None
 ### Launch
 
 Date application releases: `July 8th, 2020`
+ 
