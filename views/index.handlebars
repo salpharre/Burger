@@ -26,18 +26,23 @@
             </ul>
         </div>
     </div>
-    <div class="row mx-auto my-3">
+    <div class="row mx-auto my-3 justify-content-center">
         <form class="create-form">
-            <div class="form-group">
-                <label for="text" class="mx-auto info">Type the burger you like to eat and then click "SUBMIT"</label>
-                <input type="text" id="text" name="burger_name">
+            <div class="form-group mx-auto">
+                <div class="row justify-content-center">
+                    <label for="text" class="info">Type the burger you like to eat and then click "SUBMIT"</label>
+                </div>
+                <div class="row justify-content-center">
+                    <input type="text" id="text" name="burger_name">
+                </div>
+            </div>
+            <div class="row justify-content-center">
+                <button type="submit" class="btn btn-primary submit">Submit</button>
             </div>
             <div class="form-group" id="hide">
                 <label for="devoured">Devoured Yet?</label>
                 <input type="radio" name="devoured" value="0" checked>Not Devoured!<br>
                 <input type="radio" name="devoured" value="1">Devoured
             </div>
-
-            <button type="submit" class="btn btn-primary mx-auto my-2 submit">Submit</button>
         </form>
     </div>
