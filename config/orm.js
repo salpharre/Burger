@@ -33,6 +33,7 @@ function objToSql(ob) {
 
 //Object for all SQL query statements in the form of functions
 let orm = {
+    //Grabs entire table contents to insert into index.handlebars
     all: function (tableInput, cb) {
         let queryString = "SELECT * FROM " + tableInput + ";";
         connection.query(queryString, function (err, result) {
@@ -42,6 +43,7 @@ let orm = {
             cb(result);
         });
     },
+    //creates a new entry into table
     create: function (table, cols, vals, cb) {
         let queryString = "INSERT INTO " + table;
 
@@ -61,6 +63,7 @@ let orm = {
             cb(result);
         });
     },
+    //updates an entry in the table
     update: function (table, objColVals, condition, cb) {
         let queryString = "UPDATE " + table;
 

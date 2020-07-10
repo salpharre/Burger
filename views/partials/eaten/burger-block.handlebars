@@ -1,7 +1,9 @@
-<li>
+<li class="my-2">
+    <!--Adds margin between each burger and button pair. This handlebar inserts the burger name, id, and devoured boolean from database-->
     {{burger_name}}
 
-    <button class="btn change-devoured" data-id="{{id}}" data-newdevoured="{{devoured}}">
+    <button class="btn btn-sm change-devoured" data-id="{{id}}" data-newdevoured="{{devoured}}">
+        <!--If devoured=true then no button, if devoured=false then the button will appear-->
         {{#if devoured}}{{else}}DEVOURE ME!{{/if}}
     </button>
 </li>

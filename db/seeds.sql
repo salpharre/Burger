@@ -8,4 +8,4 @@ VALUES
 ("Shake Shack", false),
 ("Burger Supreme", true);
 
--- SELECT * FROM burgers;
+SELECT * FROM burgers;

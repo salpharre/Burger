@@ -1,6 +1,6 @@
 # Burger
 
-![GitHub last commit](https://img.shields.io/github/last-commit/salpharre/Employee-Tracker) ![npm version](https://badge.fury.io/js/inquirer.svg)
+![GitHub last commit](https://img.shields.io/github/last-commit/salpharre/Burger) ![npm version](https://badge.fury.io/js/inquirer.svg)
 
 MVC pattern practice while using MySQL, Node, Express, Handlebars and own ORM
 
@@ -38,8 +38,7 @@ To install Locally:
 
 ### Usage
 
-
-
+Use this application to keep track of all the burgers you have eaten. Type in the name of the burger you would like to eat, and click submit. The name will appear in the left column with a "Devoure Me!" button next to it. Once the burger is eaten, click the "Devoure Me!" button and it will move into the eaten column on the right.
 
 To run the application:
 1. Fork it
@@ -52,13 +51,17 @@ DEMO:
 
 [To youtube!]() - coming soon!
 
+Heroku:
+
+
+
 ### Technology
 
 * VS Code v1.46.1
 * shields.io
 * Node v12.16.1
 * MySQL v8.0.20
-* Handlebars v
+* Express-handlebars
 * freeicons.io
 
 ### Tests
@@ -77,5 +80,5 @@ None
 
 ### Launch
 
-Date application releases: `July 8th, 2020`
+Date application releases: `July 10th, 2020`
  

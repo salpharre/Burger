@@ -1,24 +1,32 @@
-body {
+body {/*sets entire webpage background to orange*/
     background-color: orange;
 }
 
-.title {
+.title {/*sets title, Eat-that-Burger! styling*/
     color: rgb(134, 3, 146);
     font-weight: bold;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 25px;
 }
 
-/*make the button invisible when the burger is devoured*/
-.change-devoured[data-newdevoured="true"] {
-    background-color: orange;
-}
-/*if burger is not devoured then button will be bootstrap primary color blue*/
-.change-devoured[data-newdevoured="false"] {
-    background-color: #0275d8;
+.info {/*matches instructions with title of page*/
+    color: rgb(134, 3, 146);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
 }
 
+/*if burger is not devoured then button will be bootstrap primary color blue, and font color will be white, sets font-family*/
+.change-devoured[data-newdevoured="false"] {
+    background-color: #0275d8;
+    color: #ffffff;
+    font-family: Arial, Helvetica, sans-serif;
+}
+/*hides devoured radio input from user view, only purpose is for api routes*/
 #hide {
     display: none;
 }
-
+/*changes color and font-family to match devoure me button with submit button*/
+.submit {
+    color: #ffffff;
+    font-family: Arial, Helvetica, sans-serif;
+}
