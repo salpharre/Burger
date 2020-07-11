@@ -49,11 +49,11 @@ To run the application:
 
 DEMO:
 
-[To youtube!]() - coming soon!
+[To youtube!](https://youtu.be/b6aL6OnW7lE)
 
 Heroku:
 
-
+[Link to App](https://burger-34145.herokuapp.com/)
 
 ### Technology
 
