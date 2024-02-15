@@ -51,9 +51,6 @@ DEMO:
 
 [To youtube!](https://youtu.be/b6aL6OnW7lE)
 
-Heroku:
-
-[Link to App](https://burger-34145.herokuapp.com/)
 
 ### Technology
 
